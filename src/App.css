@@ -1,0 +1,63 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.hero-img {
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  background-image: url(./logos/Zebapic.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 3px solid #2d2e32; */
+  /*border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;*/
+  border: 3px solid beige;
+  border-radius:60% 30% 50% 20% / 60% 40% 50% 20%;
+  height: 35rem;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 35rem;
+  display: inline-block;
+}
+.About-me-block{
+  display:block;
+  margin-left: 200px;
+  color: black;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

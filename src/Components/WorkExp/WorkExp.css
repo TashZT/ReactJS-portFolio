@@ -1,0 +1,52 @@
+.fancy-button{
+    padding: 20px;
+background-color: aliceblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: large;
+}
+
+
+.API-playground{
+    margin-left:50px;
+    margin-top:100px;
+}
+.Work-Exp-Table{
+    display: inline-block;
+    float: right;
+    position: static;
+    margin-top: 100px;
+    border:2px solid darkolivegreen;
+    border-radius: 5px 5px 5px 5px;
+}
+.Raw-JSON{
+    display:inline-block;
+    width:40%;
+    border:2px solid darkolivegreen;
+    border-radius: 5px 5px 5px 5px;
+}
+.Format-button{
+    width: 10%;
+    display: inline-block;
+    height: 500px;
+    position: absolute;
+    align-content: center;
+    padding-left: 20px;
+}
+.Format-button .fancy-button{
+    border-radius: 60px 60px 60px 60px;
+}
+th{
+    text-align: left !important;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+.Test-button{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.Test-button .fancy-button{
+    width:80%;
+}

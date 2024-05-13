@@ -1,0 +1,13 @@
+.Speech-Comp{
+    display:block;
+    width:40%;
+    float:right;
+}
+.audio-name{
+width:35%;
+display:inline-block;
+}
+.audio-img{
+    width:5%;
+    height:5%;
+}
