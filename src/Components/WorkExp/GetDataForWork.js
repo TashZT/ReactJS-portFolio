@@ -26,7 +26,7 @@ function GetDataWork(){
     
     return (
         <div className='API-playground'>
-         <div className='Test-button'> <button className='fancy-button' onClick={showData}>Sample API call</button> </div>
+         <div className='Test-button'> <button className='fancy-button' onClick={showData}>My Work Experience</button> </div>
            <WorkExp columnNames={columnNames} data={data} showDataValues={showDataValues}/>
         </div>
 
