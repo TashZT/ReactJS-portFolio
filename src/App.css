@@ -1,6 +1,5 @@
-.App {
-  /* text-align: center; */
-}
+/* .App {
+} */
 
 .App-logo {
   height: 40vmin;
@@ -9,20 +8,38 @@
 .hero-img {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url(./logos/Zebapic.png);
+  background-image: url("./logos/Zebapic.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: 3px solid #2d2e32; */
-  /*border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;*/
+   /* border: 3px solid #2d2e32; 
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; */
   border: 3px solid beige;
   border-radius:60% 30% 50% 20% / 60% 40% 50% 20%;
   height: 35rem;
   position: relative;
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
   width: 35rem;
   display: inline-block;
 }
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-color:white;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background-color:pink;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-color:yellow;
+  }
+ }
+
 .About-me-block{
   display:block;
   margin-left: 200px;
